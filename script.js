@@ -2,6 +2,7 @@
 const map = document.querySelector(".map");
 const mapImage = map.querySelector(".map__image");
 const paths = map.querySelectorAll(".map__image a");
+const mapList = map.querySelector(".map__list ul");
 const links = map.querySelectorAll(".map__list a");
 
 let activeArea = function (id) {
@@ -37,6 +38,7 @@ mapImage.addEventListener("mouseleave", function () {
   activeArea();
 });
 
-map.addEventListener("mouseleave", function () {
+// Ecoute de l'événement "mouseLeave"
+mapList.addEventListener("mouseleave", function () {
   activeArea();
 });
