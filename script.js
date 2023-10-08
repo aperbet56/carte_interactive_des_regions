@@ -36,3 +36,7 @@ links.forEach(function (link) {
 mapImage.addEventListener("mouseleave", function () {
   activeArea();
 });
+
+map.addEventListener("mouseleave", function () {
+  activeArea();
+});
