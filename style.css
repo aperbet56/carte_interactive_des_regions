@@ -45,7 +45,7 @@ header h1 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 100%;
+   margin: 0 25px;
 }
 
 .map__image {
@@ -67,6 +67,7 @@ header h1 {
     font-size: 24px;
     font-weight: bold;
     margin: 10px 15px;
+    text-align: center;
 }
 
 .map__list ul {
@@ -101,7 +102,7 @@ footer span {
 /**** Responsive design ****/
 
 @media screen and (max-width: 992px) {
-    header h1 {
+    header h1, h2 {
         line-height: 1.4;
     }
 
