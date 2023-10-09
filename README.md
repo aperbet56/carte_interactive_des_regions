@@ -2,7 +2,7 @@
 
 ## Le challenge
 
-Mon objectif a été de contruite une carte interactive des régions de France métropolitaine. Pour se faire, j'ai créé une carte des régions de France en utilisant les SVG et j'ai ensuite placé une liste des régions.
+Mon objectif a été de contruite une carte interactive des régions de France métropolitaine. Pour se faire, j'ai utilisé un SVG pour dessiner la carte et détecter les zones sélectionnables. J'ai ensuite placé une liste des régions.
 Sur cette page web, l'utilisateur peut :
 
 - survoler une région sur la carte (celle-ci va passer d'une teinte de gris à une teinte de bleue), voir son nom apparaître dans une infobulle et son nom changer d'apparence dans la liste (il va passer d'une teinte de noire à une teinte de bleue, il va être en gras et surligné).
