@@ -27,13 +27,15 @@ header, footer {
 }
 
 header {
-    margin: 25px 15px 40px;
+    margin: 10px 15px 40px;
 }
 
 header h1 {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 10px;
 }
 
 .main__content {
@@ -80,17 +82,18 @@ header h1 {
 
 .map__list a {
     color: inherit;
-    transition: color 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .map__list a.is-active {
     color: #5f5ff5;
     font-weight: bold;
     text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 footer {
-    margin: 40px 15px 35px;
+    margin: 40px 15px 15px;
 }
 
 footer span {
