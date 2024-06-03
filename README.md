@@ -5,10 +5,10 @@
 Mon objectif a été de contruite une carte interactive des régions de France métropolitaine. Pour se faire, j'ai utilisé un SVG pour dessiner la carte et détecter les zones sélectionnables. J'ai ensuite placé une liste des régions.
 Sur cette page web, l'utilisateur peut :
 
-    - survoler une région sur la carte (celle-ci va passer d'une teinte de gris à une teinte de bleue), voir son nom apparaître dans une infobulle et son nom changer d'apparence dans la liste (il va passer d'une teinte de noire à une teinte de bleue, il va être en gras et surligné).
-    - Survoler le nom d'une région présente dans la liste et voir son apparence changer dans la carte.
-    - cliquer sur une région de la carte et être renvoyé sur la page de recherche google de la région correspondante.
-    - cliquer sur le nom de la région dans la liste et également être renvoyé sur la page de recherche google de la région correspondante.
+- survoler une région sur la carte (celle-ci va passer d'une teinte de gris à une teinte de bleue), voir son nom apparaître dans une infobulle et son nom changer d'apparence dans la liste (il va passer d'une teinte de noire à une teinte de bleue, il va être en gras et surligné).
+- Survoler le nom d'une région présente dans la liste et voir son apparence changer dans la carte.
+- cliquer sur une région de la carte et être renvoyé sur la page de recherche google de la région correspondante.
+- cliquer sur le nom de la région dans la liste et également être renvoyé sur la page de recherche google de la région correspondante.
 
 ## Démonstration
 
