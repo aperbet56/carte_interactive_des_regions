@@ -1,3 +1,7 @@
+/**** Importation de la police "Arimo" ****/
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
 /**** Reset ****/
 
 * {
@@ -8,19 +12,21 @@
     list-style-type: none;
 }
 
-/**** Style général de la page ****/ 
+/**** Style général de la page ****/
 
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: #f7f7f7;
+    background-color: #fffffe;
+    color: #094067;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: sans-serif;
+    font-family: "Arimo", sans-serif;
 }
 
-header, footer {
+header,
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,14 +61,14 @@ header h1 {
 }
 
 .map__image path {
-    fill: #dddddd;
-    stroke: #ffffff;
+    fill: #90b4ce;
+    stroke: #fffffe;
     stroke-width: 1px;
     transition: fill 0.3s ease-out;
 }
 
 .map__image .is-active path {
-    fill: #5f5ff5;
+    fill: #3da9fc;
 }
 
 .map__list h2 {
@@ -74,6 +80,7 @@ header h1 {
 
 .map__list ul {
     text-align: center;
+    color: #5f6c7b;
 }
 
 .map__list li {
@@ -86,7 +93,7 @@ header h1 {
 }
 
 .map__list a.is-active {
-    color: #5f5ff5;
+    color: #3da9fc;
     font-weight: bold;
     text-decoration: underline;
     text-underline-offset: 4px;
@@ -105,7 +112,9 @@ footer span {
 /**** Responsive design ****/
 
 @media screen and (max-width: 992px) {
-    header h1, h2 {
+
+    header h1,
+    h2 {
         line-height: 1.4;
     }
 
