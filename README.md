@@ -1,5 +1,7 @@
 ## CARTE INTERACTIVE DES REGIONS DE FRANCE
 
+![Design preview for the project](./img/preview.png)
+
 ## Le challenge
 
 Mon objectif a été de contruite une carte interactive des régions de France métropolitaine. Pour se faire, j'ai utilisé un SVG pour dessiner la carte et détecter les zones sélectionnables. J'ai ensuite placé une liste des régions.
@@ -14,13 +16,14 @@ Sur cette page web, l'utilisateur peut :
 
 Liens du projet: https://aperbet56.github.io/carte_interactive_des_regions/
 
-## Développez avec
+## Projet développé avec
 
 - Utilisation des balises sémantiques HTML5
 - Création d'un SVG
 - CSS
 - Flexbox
 - Animation CSS (transition)
+- Importation de la police "Arimo"
 - Utilisation d'un normaliseur : le fichier normalize.css
 - Page web responsive
 - JavaScript (fonctions, écouteurs d'événement...)
